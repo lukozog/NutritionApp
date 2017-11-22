@@ -1,0 +1,13 @@
+ozog/dao/NutritionDaoTest.class
+ozog/dao/EntityDaoImplTest.class
+ozog/service/MealNutritionServiceTest.class
+ozog/service/UserServiceTest.class
+ozog/service/MealServiceTest.class
+ozog/dao/MealNutritionDaoTest.class
+ozog/controller/MealControllerTest.class
+ozog/controller/NutritionControllerTest.class
+ozog/dao/UserDaoTest.class
+ozog/controller/UserControllerTest.class
+ozog/service/NutritionServiceTest.class
+ozog/validators/MealNutritionValidatorTest.class
+ozog/configuration/HibernateTestConfiguration.class

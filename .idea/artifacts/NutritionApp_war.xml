@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NutritionApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="NutritionApp.war">
+      <element id="artifact" artifact-name="NutritionApp:war exploded" />
+    </root>
+  </artifact>
+</component>

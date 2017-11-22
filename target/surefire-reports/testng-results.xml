@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="60" passed="60">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="2284" started-at="2017-10-06T14:57:41Z" finished-at="2017-10-06T14:57:43Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2284" started-at="2017-10-06T14:57:41Z" finished-at="2017-10-06T14:57:43Z">
+      <class name="ozog.controller.UserControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="setUp" is-config="true" duration-ms="230" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="deleteUser" duration-ms="6" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="listUsers()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="listUsers" duration-ms="32" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUsers -->
+        <test-method status="PASS" signature="newUser()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="newUser" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUser -->
+        <test-method status="PASS" signature="saveUserError()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="saveUserError" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUserError -->
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="updateUser" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="saveUserOk()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="saveUserOk" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveUserOk -->
+        <test-method status="PASS" signature="updateUserOk()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="updateUserOk" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserOk -->
+        <test-method status="PASS" signature="updateUserError()[pri:0, instance:ozog.controller.UserControllerTest@578486a3]" name="updateUserError" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserError -->
+      </class> <!-- ozog.controller.UserControllerTest -->
+      <class name="ozog.controller.MealControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="setUp" is-config="true" duration-ms="6" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createMeal()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="createMeal" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMeal -->
+        <test-method status="PASS" signature="createMealOk()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="createMealOk" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMealOk -->
+        <test-method status="PASS" signature="createMealError()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="createMealError" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMealError -->
+        <test-method status="PASS" signature="updateMeal()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="updateMeal" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMeal -->
+        <test-method status="PASS" signature="deleteMeal()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="deleteMeal" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMeal -->
+        <test-method status="PASS" signature="getMealForUser()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="getMealForUser" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMealForUser -->
+        <test-method status="PASS" signature="updateMealError()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="updateMealError" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMealError -->
+        <test-method status="PASS" signature="updateMealOk()[pri:0, instance:ozog.controller.MealControllerTest@7b49cea0]" name="updateMealOk" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMealOk -->
+      </class> <!-- ozog.controller.MealControllerTest -->
+      <class name="ozog.dao.NutritionDaoTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="10" started-at="2017-10-06T16:57:43Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="18" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.createNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="setUp" is-config="true" duration-ms="5" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNutrition()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="createNutrition" duration-ms="9" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNutrition -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.createNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.deleteNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="setUp" is-config="true" duration-ms="13" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteNutrition()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="deleteNutrition" duration-ms="6" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNutrition -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.deleteNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.getAllNutritions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="setUp" is-config="true" duration-ms="10" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllNutritions()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="getAllNutritions" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNutritions -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.getAllNutritions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="7" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.getNutritionById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="setUp" is-config="true" duration-ms="17" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getNutritionById()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="getNutritionById" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNutritionById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.getNutritionById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.updateNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="setUp" is-config="true" duration-ms="4" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateNutrition()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="updateNutrition" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNutrition -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.NutritionDaoTest.updateNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:ozog.dao.NutritionDaoTest@4973813a]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- ozog.dao.NutritionDaoTest -->
+      <class name="ozog.service.UserServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.service.UserServiceTest@57855c9a]" name="setUp" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:ozog.service.UserServiceTest@57855c9a]" name="createUser" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:ozog.service.UserServiceTest@57855c9a]" name="deleteUser" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:ozog.service.UserServiceTest@57855c9a]" name="getAllUsers" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="getUserById()[pri:0, instance:ozog.service.UserServiceTest@57855c9a]" name="getUserById" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById -->
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:ozog.service.UserServiceTest@57855c9a]" name="updateUser" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- ozog.service.UserServiceTest -->
+      <class name="ozog.service.NutritionServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.service.NutritionServiceTest@3a883ce7]" name="setUp" is-config="true" duration-ms="5" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNutrition()[pri:0, instance:ozog.service.NutritionServiceTest@3a883ce7]" name="createNutrition" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNutrition -->
+        <test-method status="PASS" signature="calculateCalories()[pri:0, instance:ozog.service.NutritionServiceTest@3a883ce7]" name="calculateCalories" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateCalories -->
+        <test-method status="PASS" signature="deleteNutrition()[pri:0, instance:ozog.service.NutritionServiceTest@3a883ce7]" name="deleteNutrition" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNutrition -->
+        <test-method status="PASS" signature="getAllNutritions()[pri:0, instance:ozog.service.NutritionServiceTest@3a883ce7]" name="getAllNutritions" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNutritions -->
+        <test-method status="PASS" signature="getNutritionById()[pri:0, instance:ozog.service.NutritionServiceTest@3a883ce7]" name="getNutritionById" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNutritionById -->
+        <test-method status="PASS" signature="updateNutrition()[pri:0, instance:ozog.service.NutritionServiceTest@3a883ce7]" name="updateNutrition" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNutrition -->
+      </class> <!-- ozog.service.NutritionServiceTest -->
+      <class name="ozog.service.MealServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.service.MealServiceTest@2758fe70]" name="setUp" is-config="true" duration-ms="4" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createMeal()[pri:0, instance:ozog.service.MealServiceTest@2758fe70]" name="createMeal" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMeal -->
+        <test-method status="PASS" signature="deleteMeal()[pri:0, instance:ozog.service.MealServiceTest@2758fe70]" name="deleteMeal" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMeal -->
+        <test-method status="PASS" signature="getAllMeals()[pri:0, instance:ozog.service.MealServiceTest@2758fe70]" name="getAllMeals" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllMeals -->
+        <test-method status="PASS" signature="getMealById()[pri:0, instance:ozog.service.MealServiceTest@2758fe70]" name="getMealById" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMealById -->
+        <test-method status="PASS" signature="updateMeal()[pri:0, instance:ozog.service.MealServiceTest@2758fe70]" name="updateMeal" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMeal -->
+        <test-method status="PASS" signature="getMealsForUser()[pri:0, instance:ozog.service.MealServiceTest@2758fe70]" name="getMealsForUser" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMealsForUser -->
+      </class> <!-- ozog.service.MealServiceTest -->
+      <class name="ozog.dao.UserDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2017-10-06T16:57:43Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.createUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="setUp" is-config="true" duration-ms="6" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="createUser" duration-ms="11" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.createUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.deleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="setUp" is-config="true" duration-ms="6" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="deleteUser" duration-ms="6" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.deleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.getAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="setUp" is-config="true" duration-ms="20" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="getAllUsers" duration-ms="5" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.getAllUsers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.getUserById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="setUp" is-config="true" duration-ms="14" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getUserById()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="getUserById" duration-ms="4" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.getUserById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="7" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.updateUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="setUp" is-config="true" duration-ms="8" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="updateUser" duration-ms="4" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.UserDaoTest.updateUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:ozog.dao.UserDaoTest@32709393]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- ozog.dao.UserDaoTest -->
+      <class name="ozog.controller.NutritionControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="setUp" is-config="true" duration-ms="10" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNutrition()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="createNutrition" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNutrition -->
+        <test-method status="PASS" signature="createNutritionError()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="createNutritionError" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNutritionError -->
+        <test-method status="PASS" signature="createNutritionOk()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="createNutritionOk" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNutritionOk -->
+        <test-method status="PASS" signature="deleteNutrition()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="deleteNutrition" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNutrition -->
+        <test-method status="PASS" signature="getAllNutritions()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="getAllNutritions" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllNutritions -->
+        <test-method status="PASS" signature="updateNutrition()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="updateNutrition" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNutrition -->
+        <test-method status="PASS" signature="updateNutritionError()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="updateNutritionError" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNutritionError -->
+        <test-method status="PASS" signature="updateNutritionOk()[pri:0, instance:ozog.controller.NutritionControllerTest@cd2dae5]" name="updateNutritionOk" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNutritionOk -->
+      </class> <!-- ozog.controller.NutritionControllerTest -->
+      <class name="ozog.service.MealNutritionServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.service.MealNutritionServiceTest@1f36e637]" name="setUp" is-config="true" duration-ms="4" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="calculateValues()[pri:0, instance:ozog.service.MealNutritionServiceTest@1f36e637]" name="calculateValues" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateValues -->
+        <test-method status="PASS" signature="createMealNutrition()[pri:0, instance:ozog.service.MealNutritionServiceTest@1f36e637]" name="createMealNutrition" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMealNutrition -->
+        <test-method status="PASS" signature="deleteMealNutrition()[pri:0, instance:ozog.service.MealNutritionServiceTest@1f36e637]" name="deleteMealNutrition" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMealNutrition -->
+        <test-method status="PASS" signature="getMealNutritions()[pri:0, instance:ozog.service.MealNutritionServiceTest@1f36e637]" name="getMealNutritions" duration-ms="21" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMealNutritions -->
+        <test-method status="PASS" signature="updateMealNutritions()[pri:0, instance:ozog.service.MealNutritionServiceTest@1f36e637]" name="updateMealNutritions" duration-ms="0" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateMealNutritions -->
+      </class> <!-- ozog.service.MealNutritionServiceTest -->
+      <class name="ozog.dao.MealNutritionDaoTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="5" started-at="2017-10-06T16:57:41Z" finished-at="2017-10-06T16:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1259" started-at="2017-10-06T16:57:41Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2017-10-06T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="40" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.createMealNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="setUp" is-config="true" duration-ms="97" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createMealNutrition()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="createMealNutrition" duration-ms="71" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMealNutrition -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="7" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.createMealNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.deleteMealNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="setUp" is-config="true" duration-ms="9" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteMealNutrition()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="deleteMealNutrition" duration-ms="35" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMealNutrition -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.deleteMealNutrition()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.getMealNutritionById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="setUp" is-config="true" duration-ms="7" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMealNutritionById()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="getMealNutritionById" duration-ms="102" started-at="2017-10-06T16:57:42Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMealNutritionById -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.getMealNutritionById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.getMealNutritions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="setUp" is-config="true" duration-ms="6" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMealNutritions()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="getMealNutritions" duration-ms="2" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMealNutritions -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ozog.dao.MealNutritionDaoTest.getMealNutritions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:ozog.dao.MealNutritionDaoTest@6e6c3152]" name="springTestContextAfterTestClass" is-config="true" duration-ms="3" started-at="2017-10-06T16:57:43Z" finished-at="2017-10-06T16:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- ozog.dao.MealNutritionDaoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <nutrition nutrition_id="1" nutrition_name="NutritionXml"
+               nutrition_calories="10" nutrition_proteins="10" nutrition_carbs="10" nutrition_fat="10" />
+</dataset>

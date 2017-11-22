@@ -1,0 +1,379 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 06 16:57:41 CEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2284 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ozog.service.NutritionServiceTest.calculateCalories()'><b>calculateCalories</b><br>Test class: ozog.service.NutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.NutritionServiceTest@3a883ce7</td></tr>
+<tr>
+<td title='ozog.service.MealNutritionServiceTest.calculateValues()'><b>calculateValues</b><br>Test class: ozog.service.MealNutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealNutritionServiceTest@1f36e637</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.createMeal()'><b>createMeal</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.service.MealServiceTest.createMeal()'><b>createMeal</b><br>Test class: ozog.service.MealServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealServiceTest@2758fe70</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.createMealError()'><b>createMealError</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.dao.MealNutritionDaoTest.createMealNutrition()'><b>createMealNutrition</b><br>Test class: ozog.dao.MealNutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.MealNutritionDaoTest@6e6c3152</td></tr>
+<tr>
+<td title='ozog.service.MealNutritionServiceTest.createMealNutrition()'><b>createMealNutrition</b><br>Test class: ozog.service.MealNutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealNutritionServiceTest@1f36e637</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.createMealOk()'><b>createMealOk</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.createNutrition()'><b>createNutrition</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.dao.NutritionDaoTest.createNutrition()'><b>createNutrition</b><br>Test class: ozog.dao.NutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.NutritionDaoTest@4973813a</td></tr>
+<tr>
+<td title='ozog.service.NutritionServiceTest.createNutrition()'><b>createNutrition</b><br>Test class: ozog.service.NutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.NutritionServiceTest@3a883ce7</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.createNutritionError()'><b>createNutritionError</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.createNutritionOk()'><b>createNutritionOk</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.dao.UserDaoTest.createUser()'><b>createUser</b><br>Test class: ozog.dao.UserDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.UserDaoTest@32709393</td></tr>
+<tr>
+<td title='ozog.service.UserServiceTest.createUser()'><b>createUser</b><br>Test class: ozog.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.UserServiceTest@57855c9a</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.deleteMeal()'><b>deleteMeal</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.service.MealServiceTest.deleteMeal()'><b>deleteMeal</b><br>Test class: ozog.service.MealServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealServiceTest@2758fe70</td></tr>
+<tr>
+<td title='ozog.dao.MealNutritionDaoTest.deleteMealNutrition()'><b>deleteMealNutrition</b><br>Test class: ozog.dao.MealNutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.MealNutritionDaoTest@6e6c3152</td></tr>
+<tr>
+<td title='ozog.service.MealNutritionServiceTest.deleteMealNutrition()'><b>deleteMealNutrition</b><br>Test class: ozog.service.MealNutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealNutritionServiceTest@1f36e637</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.deleteNutrition()'><b>deleteNutrition</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.dao.NutritionDaoTest.deleteNutrition()'><b>deleteNutrition</b><br>Test class: ozog.dao.NutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.NutritionDaoTest@4973813a</td></tr>
+<tr>
+<td title='ozog.service.NutritionServiceTest.deleteNutrition()'><b>deleteNutrition</b><br>Test class: ozog.service.NutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.NutritionServiceTest@3a883ce7</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.deleteUser()'><b>deleteUser</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+<tr>
+<td title='ozog.dao.UserDaoTest.deleteUser()'><b>deleteUser</b><br>Test class: ozog.dao.UserDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.UserDaoTest@32709393</td></tr>
+<tr>
+<td title='ozog.service.UserServiceTest.deleteUser()'><b>deleteUser</b><br>Test class: ozog.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.UserServiceTest@57855c9a</td></tr>
+<tr>
+<td title='ozog.service.MealServiceTest.getAllMeals()'><b>getAllMeals</b><br>Test class: ozog.service.MealServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealServiceTest@2758fe70</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.getAllNutritions()'><b>getAllNutritions</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.dao.NutritionDaoTest.getAllNutritions()'><b>getAllNutritions</b><br>Test class: ozog.dao.NutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.NutritionDaoTest@4973813a</td></tr>
+<tr>
+<td title='ozog.service.NutritionServiceTest.getAllNutritions()'><b>getAllNutritions</b><br>Test class: ozog.service.NutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.NutritionServiceTest@3a883ce7</td></tr>
+<tr>
+<td title='ozog.dao.UserDaoTest.getAllUsers()'><b>getAllUsers</b><br>Test class: ozog.dao.UserDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.UserDaoTest@32709393</td></tr>
+<tr>
+<td title='ozog.service.UserServiceTest.getAllUsers()'><b>getAllUsers</b><br>Test class: ozog.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.UserServiceTest@57855c9a</td></tr>
+<tr>
+<td title='ozog.service.MealServiceTest.getMealById()'><b>getMealById</b><br>Test class: ozog.service.MealServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealServiceTest@2758fe70</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.getMealForUser()'><b>getMealForUser</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.dao.MealNutritionDaoTest.getMealNutritionById()'><b>getMealNutritionById</b><br>Test class: ozog.dao.MealNutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.MealNutritionDaoTest@6e6c3152</td></tr>
+<tr>
+<td title='ozog.dao.MealNutritionDaoTest.getMealNutritions()'><b>getMealNutritions</b><br>Test class: ozog.dao.MealNutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.MealNutritionDaoTest@6e6c3152</td></tr>
+<tr>
+<td title='ozog.service.MealNutritionServiceTest.getMealNutritions()'><b>getMealNutritions</b><br>Test class: ozog.service.MealNutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealNutritionServiceTest@1f36e637</td></tr>
+<tr>
+<td title='ozog.service.MealServiceTest.getMealsForUser()'><b>getMealsForUser</b><br>Test class: ozog.service.MealServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealServiceTest@2758fe70</td></tr>
+<tr>
+<td title='ozog.dao.NutritionDaoTest.getNutritionById()'><b>getNutritionById</b><br>Test class: ozog.dao.NutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.NutritionDaoTest@4973813a</td></tr>
+<tr>
+<td title='ozog.service.NutritionServiceTest.getNutritionById()'><b>getNutritionById</b><br>Test class: ozog.service.NutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.NutritionServiceTest@3a883ce7</td></tr>
+<tr>
+<td title='ozog.dao.UserDaoTest.getUserById()'><b>getUserById</b><br>Test class: ozog.dao.UserDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.UserDaoTest@32709393</td></tr>
+<tr>
+<td title='ozog.service.UserServiceTest.getUserById()'><b>getUserById</b><br>Test class: ozog.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.UserServiceTest@57855c9a</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.listUsers()'><b>listUsers</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.newUser()'><b>newUser</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.saveUserError()'><b>saveUserError</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.saveUserOk()'><b>saveUserOk</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.updateMeal()'><b>updateMeal</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.service.MealServiceTest.updateMeal()'><b>updateMeal</b><br>Test class: ozog.service.MealServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealServiceTest@2758fe70</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.updateMealError()'><b>updateMealError</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.service.MealNutritionServiceTest.updateMealNutritions()'><b>updateMealNutritions</b><br>Test class: ozog.service.MealNutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.MealNutritionServiceTest@1f36e637</td></tr>
+<tr>
+<td title='ozog.controller.MealControllerTest.updateMealOk()'><b>updateMealOk</b><br>Test class: ozog.controller.MealControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.MealControllerTest@7b49cea0</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.updateNutrition()'><b>updateNutrition</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.dao.NutritionDaoTest.updateNutrition()'><b>updateNutrition</b><br>Test class: ozog.dao.NutritionDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.NutritionDaoTest@4973813a</td></tr>
+<tr>
+<td title='ozog.service.NutritionServiceTest.updateNutrition()'><b>updateNutrition</b><br>Test class: ozog.service.NutritionServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.NutritionServiceTest@3a883ce7</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.updateNutritionError()'><b>updateNutritionError</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.controller.NutritionControllerTest.updateNutritionOk()'><b>updateNutritionOk</b><br>Test class: ozog.controller.NutritionControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.NutritionControllerTest@cd2dae5</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.updateUser()'><b>updateUser</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+<tr>
+<td title='ozog.dao.UserDaoTest.updateUser()'><b>updateUser</b><br>Test class: ozog.dao.UserDaoTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.dao.UserDaoTest@32709393</td></tr>
+<tr>
+<td title='ozog.service.UserServiceTest.updateUser()'><b>updateUser</b><br>Test class: ozog.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.service.UserServiceTest@57855c9a</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.updateUserError()'><b>updateUserError</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+<tr>
+<td title='ozog.controller.UserControllerTest.updateUserOk()'><b>updateUserOk</b><br>Test class: ozog.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>ozog.controller.UserControllerTest@578486a3</td></tr>
+</table><p>
+</body>
+</html>
