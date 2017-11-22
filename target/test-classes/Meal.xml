@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-    <meal meal_id="1" meal_name="TestMeal" meal_date="2017-01-01" meal_calories="0" meal_proteins="0"
-          meal_carbs="0" meal_fat="0"/>
-</dataset>

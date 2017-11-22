@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-    <mealnutritions meal_nutrition_id="1" meal_nutrition_value="10" meal_nutrition_name="TestMealNutrition"
-                   meal_nutrition_calories="0" meal_nutrition_proteins="0" meal_nutrition_carbs="0" meal_nutrition_fat="0" />
-</dataset>
